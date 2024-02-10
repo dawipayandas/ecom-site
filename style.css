@@ -1,0 +1,111 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border:1px solid #302e2e;
+    margin: 10px;
+    background-image: url(logo.jpg);
+}
+input[type="text"]{
+    width: 70%;
+    padding-top: 0px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+button{
+    background-color: #fff;
+    border: 0px;
+    float: left;
+}
+button:hover ul
+{
+ display:block;
+}
+ul{
+    list-style-type: none ;
+    display: none;
+    background-color: #949290;
+}
+
+ul li{
+    width:120px;
+    line-height: 30px;
+    text-decoration: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color:#d4d4d3;
+}
+ul li a:hover{
+    color:  #fff;
+    display:block;
+}
+ul li ul li{
+    display: none;
+    background-color: #949290;
+}
+ul li:hover ul li{
+    display: block;
+}
+.edit
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 50px;
+  }
+
+  .size{
+    width:15%;
+    height:20%;
+    border: 2px;
+    padding-top: 0%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+
+  .table1 {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  
+
+  td:hover {
+    background-color: #f5f5f5;
+  }
+
+  .footer
+  {
+    color: #333232; 
+    text-decoration: none;
+  }
+  .table2{
+    width: 100%;
+    height:100%;
+    background-color: #b6b6b6;
+    
+  }
+  .td2
+  {
+    border: none;
+    text-align: justify;
+  }
